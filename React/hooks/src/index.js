@@ -1,9 +1,12 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import LifecycleApp from "./components/LifeCycleApp";
+import RunOnChange from "./components/RunOnChange";
+import Fetch from "./components/RedditFetch";
 
 ReactDOM.render(
-    <App />,
-  document.getElementById('root')
+    <Fetch/>,
+    /*<RunOnChange/>,*/
+    /*<LifecycleApp/>,*/
+    document.getElementById('root')
 );
